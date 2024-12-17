@@ -2,19 +2,18 @@
     /* margin-left: auto;
     margin-right: auto; */
     background-color: #1F2937;
-    outline: 2px solid red;
     font-family: 'Roboto', sans-serif;
 }
 .header-container {
     background-color: #1F2937;
     color: white;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     box-sizing: border-box;
     display: flex;
     justify-content:space-between;
     margin-left: 100px;
     margin-right: 100px;
-    
 }
 
 .nav {
@@ -24,25 +23,129 @@
 }
 .featured {
     display: flex;
-    padding: 30px;
     margin-left: 100px;
     margin-right: 100px;
     justify-content: space-between;
-    align-content: space-evenly;
 }
 .featured-text {
     color: aliceblue;
+    font-size: small;
+    align-content: space-evenly;
 }
 .myimage{
     width: 400px;
-    height: auto;
-    justify-content: center;
+    height: auto;   
+}
+.myimages{
+    display: flex;
+    align-content: center;
 }
 .button-1 {
     color:aliceblue;
     background-color: #3882f6;
     font-family: 'Roboto';
-    padding: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.second-box *{
+    background-color: aliceblue;
+    color: black;
+}
+.second-box {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    align-content: center;
+}
+.second-box .title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.images{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.images .card img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: 3px solid #3882f6;
     border-radius: 10px;
-    font: 200;
+}
+.images .card p {
+    display: block;
+    font-size: xx-small;
+    text-align: center;
+}
+.third-box *{
+    /* outline: 1px red solid; */
+    background-color: #E5E7EB;
+}
+.quote {
+   padding-left: 200px;
+   padding-right: 200px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.quote p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+.fourth-box {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.blue-box *{
+    /* outline: 1px solid red; */
+}
+.blue-box {
+    box-sizing: border-box;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 100px;
+}
+.blue-box .content {
+    background-color:#3882f6;
+    display: block;
+    box-sizing: border-box;
+    
+}
+.content .title{
+    color: aliceblue;
+    background-color: inherit;
+}
+.content .text {
+    color: aliceblue;
+    background-color: inherit;
+}
+.blue-button {
+    align-content:center ;
+    background-color: inherit;
+    color: aliceblue;
+    padding: 20px;
+}
+.blue-button button {
+    color: aliceblue;
+    background-color: inherit;
+    padding: 10px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
 }
